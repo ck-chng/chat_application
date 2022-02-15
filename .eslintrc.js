@@ -20,8 +20,9 @@ module.exports = {
   },
   parser: 'babel-eslint',
   plugins: [
-    'react',
+    'disable',
   ],
+  processor: 'disable/disable',
   rules: {
     'react/react-in-jsx-scope': 'off',
     'import/extensions': 0,
@@ -85,3 +86,5 @@ module.exports = {
     ],
   },
 };
+
+
